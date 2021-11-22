@@ -108,3 +108,32 @@ Coding Challenge #1
 // My mom is from ${momOfHomeCountry}, \n\
 // and my dad is from ${dadOfHomeCountry}.\n\
 // so that I am half Korean.`);
+
+/*
+#6 Taking dicisions If Practice
+*/
+
+const age = 15;
+const isOldEnough = age >= 18;
+
+if (isOldEnough) {
+    console.log('Sara can start driving license 🚗');
+    //Comand + CTRL + space to show the Emoji up
+} else {
+    const yearsLeft = 18 - age;
+    console.log(`See you ${yearsLeft} years later!`);
+}
+
+const birthYear = 1994;
+let century;
+
+if (birthYear <= 2000) {
+    century = 20;
+} else {
+    century = 21;
+}
+
+//Since there is block scope, if you need to use let century out side of {}, 
+//you have to decrare before {}
+
+console.log(century);
