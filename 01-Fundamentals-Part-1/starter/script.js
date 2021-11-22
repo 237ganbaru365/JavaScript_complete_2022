@@ -224,3 +224,35 @@ Coding Challenge #3
 // } else if (avgKoalas === avgDolphins && avgKoalas >= 100 && avgDolphins >= 100) {
 //     console.log('Draw')
 // }
+
+/*
+#10 Statement, Expression and Conditional operetor Practice
+*/
+
+// if ( ) {
+//     aaa
+// } else {
+//     bbb
+// }
+
+// これは、Statement であって　Expessionではないので、
+// たとえば定数に代入したりができない
+
+// が、
+
+// 同じ意味を表す ? : 演算子を使えば、
+
+// const ccc = ()? aaa : bbb;
+
+// などと定数に代入して使用することができる
+
+
+/*
+Coding Challenge #4
+*/
+
+const bill = 430;
+const tip = bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+const total = bill + tip;
+
+console.log(`The bill was ${bill}, the tip was ${tip}, and the totall value was ${total}`);
