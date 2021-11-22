@@ -142,19 +142,85 @@ Coding Challenge #1
 Coding Challenge #2
 */
 
-const massMark = 78;
-const massJohn = 92;
-const tallMark = 1.69;
-const tallJohn = 1.95;
+// const massMark = 78;
+// const massJohn = 92;
+// const tallMark = 1.69;
+// const tallJohn = 1.95;
 
-const BMIMark = massMark / tallMark ** 2;
-const BMIJohn = massJohn / tallJohn ** 2;
+// const BMIMark = massMark / tallMark ** 2;
+// const BMIJohn = massJohn / tallJohn ** 2;
 
 
-if (BMIMark > BMIJohn) {
-    console.log(`Mark's BMI (${BMIMark}) is higher than John's BMI (${BMIJohn})
-!`); 
-} else {
-    console.log(`John's BMI (${BMIJohn}) is higher than Mark's BMI (${BMIMark})
-!`);
-}
+// if (BMIMark > BMIJohn) {
+//     console.log(`Mark's BMI (${BMIMark}) is higher than John's BMI (${BMIJohn})
+// !`); 
+// } else {
+//     console.log(`John's BMI (${BMIJohn}) is higher than Mark's BMI (${BMIMark})
+// !`);
+// }
+
+
+/*
+#6 Type Conversion Practice
+*/
+
+// console.log(String(23) === '23');
+
+// console.log('23' - '10' - 3); //10
+//Because '-' operetors causeed oposit things with '+'
+//Which mean - converted string as number
+//It happen in * and / operator as well
+
+
+/*
+#7 Truthy and Falsy Value Practice
+*/
+
+//5 falsy values: 0, '', undefined, null, NaN
+
+/*
+#8  == vs. === Practice
+*/
+
+// 数値と文字列を比較するとき、文字列は数値に変換されます。JavaScript は文字列の数値リテラルを Number 型の数値に変換しようと試みます。最初に、その文字列の数値リテラルから数学的な値を引き出します。次に、最も近い Number 型の値にこの値を丸めます。つまり、==は、文字列と数値の比較の場合、文字列を数値に変換してくれる
+
+//しかし、===の場合は、文字列は数値に変換されない
+
+/*
+Coding Challenge #3
+*/
+
+// const avgDolphins = (96 + 108 + 89) / 3;
+// const avgKoalas = (88 + 91 + 110) / 3;
+
+// if (avgDolphins > avgKoalas) {
+//     console.log('Dolphins win!');
+// } else if (avgDolphins < avgKoalas) {
+//     console.log('Koals win!');
+// } else if (avgKoalas === avgDolphins) {
+//     console.log('Draw')
+// }
+
+// BONUS 1
+// const avgDolphins = (97 + 112 + 101) / 3;
+// const avgKoalas = (109 + 95 + 123) / 3;
+
+// if (avgDolphins > avgKoalas && avgDolphins >= 100) {
+//     console.log('Dolphins win!');
+// } else if (avgDolphins < avgKoalas && avgKoalas >= 100) {
+//     console.log('Koals win!');
+// } else if (avgKoalas === avgDolphins) {
+//     console.log('Draw')
+// }
+
+// BONUS 2
+// const avgDolphins = (97 + 112 + 101) / 3;
+// const avgKoalas = (109 + 95 + 106) / 3;
+
+// if (avgDolphins > avgKoalas && avgDolphins >= 100) {
+//     console.log('Dolphins win!');
+// } else if (avgDolphins < avgKoalas && avgKoalas >= 100) {
+//     console.log('Koals win!');
+// } else if (avgKoalas === avgDolphins && avgKoalas >= 100 && avgDolphins >= 100) {
+//     console.log('Draw')
+// }
