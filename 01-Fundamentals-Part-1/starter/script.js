@@ -69,27 +69,42 @@ Coding Challenge #1
 */
 
 //test1
-const massMark = 78;
-const massJohn = 92;
-const tallMark = 1.69;
-const tallJohn = 1.95;
+// const massMark = 78;
+// const massJohn = 92;
+// const tallMark = 1.69;
+// const tallJohn = 1.95;
 
-const BMIMark = massMark / tallMark ** 2;
-const BMIJohn = massJohn / tallJohn ** 2;
-console.log(BMIMark, BMIJohn);
+// const BMIMark = massMark / tallMark ** 2;
+// const BMIJohn = massJohn / tallJohn ** 2;
+// console.log(BMIMark, BMIJohn);
 
-const markHigherBMI = BMIMark > BMIJohn;
-console.log(markHigherBMI);
+// const markHigherBMI = BMIMark > BMIJohn;
+// console.log(markHigherBMI);
 
-//test2
-const massMark = 95;
-const massJohn = 85;
-const tallMark = 1.88;
-const tallJohn = 1.76;
+// //test2
+// const massMark = 95;
+// const massJohn = 85;
+// const tallMark = 1.88;
+// const tallJohn = 1.76;
 
-const BMIMark = massMark / tallMark ** 2;
-const BMIJohn = massJohn / tallJohn ** 2;
-console.log(BMIMark, BMIJohn);
+// const BMIMark = massMark / tallMark ** 2;
+// const BMIJohn = massJohn / tallJohn ** 2;
+// console.log(BMIMark, BMIJohn);
 
-const markHigherBMI = BMIMark > BMIJohn;
-console.log(markHigherBMI);
+// const markHigherBMI = BMIMark > BMIJohn;
+// console.log(markHigherBMI);
+
+
+/*
+#5 String and Template literals Practice
+*/
+
+// const age = 27;
+// const myName = 'Fumina';
+// const momOfHomeCountry = 'Korea';
+// const dadOfHomeCountry = 'Japan';
+
+// console.log(`My name is ${myName} and ${age} years old.\n\
+// My mom is from ${momOfHomeCountry}, \n\
+// and my dad is from ${dadOfHomeCountry}.\n\
+// so that I am half Korean.`);
