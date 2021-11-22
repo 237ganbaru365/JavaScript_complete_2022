@@ -63,3 +63,33 @@
 // const firstName = 'Yoshimura';
 // const lastName = 'Fumina';
 // console.log(firstName + ' ' + lastName);
+
+/*
+Coding Challenge #1
+*/
+
+//test1
+const massMark = 78;
+const massJohn = 92;
+const tallMark = 1.69;
+const tallJohn = 1.95;
+
+const BMIMark = massMark / tallMark ** 2;
+const BMIJohn = massJohn / tallJohn ** 2;
+console.log(BMIMark, BMIJohn);
+
+const markHigherBMI = BMIMark > BMIJohn;
+console.log(markHigherBMI);
+
+//test2
+const massMark = 95;
+const massJohn = 85;
+const tallMark = 1.88;
+const tallJohn = 1.76;
+
+const BMIMark = massMark / tallMark ** 2;
+const BMIJohn = massJohn / tallJohn ** 2;
+console.log(BMIMark, BMIJohn);
+
+const markHigherBMI = BMIMark > BMIJohn;
+console.log(markHigherBMI);
