@@ -1,0 +1,17 @@
+-------------
+#1 Assignments
+-------------
+    - Object
+
+    - Primitive
+        - Number -> decimal and integers
+        - String -> text rexuired '' or ""
+        - Boolean -> true or false
+        - Undefined -> it's not actually same NULL
+        - NULL -> empty value
+        - Symbol(ES2015)
+        - BigInt(ES2020) 
+        --*---*-----*---*-----*---*---
+        As you've already know, C or some other language required to difine the data type, but JS doesn't.
+        --*---*-----*---*-----*---*---
+         
