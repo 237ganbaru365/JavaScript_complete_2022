@@ -34,3 +34,18 @@
 
 // console.log(typeof NULL);
 // // This shows 'Object' which is a bug of JS
+
+
+/*
+#3 let,const,var Practice
+*/
+
+// let age = 30;
+// age = 31;
+
+// const birthYear = 1991;
+// // birthYear = 1994;
+// // recomend always use const, and if you use let when you really need to change shortly 
+
+// var job = 'programmer';
+// job = 'teacher';
