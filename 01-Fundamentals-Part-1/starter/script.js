@@ -113,27 +113,48 @@ Coding Challenge #1
 #6 Taking dicisions If Practice
 */
 
-const age = 15;
-const isOldEnough = age >= 18;
+// const age = 15;
+// const isOldEnough = age >= 18;
 
-if (isOldEnough) {
-    console.log('Sara can start driving license 🚗');
-    //Comand + CTRL + space to show the Emoji up
+// if (isOldEnough) {
+//     console.log('Sara can start driving license 🚗');
+//     //Comand + CTRL + space to show the Emoji up
+// } else {
+//     const yearsLeft = 18 - age;
+//     console.log(`See you ${yearsLeft} years later!`);
+// }
+
+// const birthYear = 1994;
+// let century;
+
+// if (birthYear <= 2000) {
+//     century = 20;
+// } else {
+//     century = 21;
+// }
+
+// //Since there is block scope, if you need to use let century out side of {}, 
+// //you have to decrare before {}
+
+// console.log(century);
+
+/*
+Coding Challenge #2
+*/
+
+const massMark = 78;
+const massJohn = 92;
+const tallMark = 1.69;
+const tallJohn = 1.95;
+
+const BMIMark = massMark / tallMark ** 2;
+const BMIJohn = massJohn / tallJohn ** 2;
+
+
+if (BMIMark > BMIJohn) {
+    console.log(`Mark's BMI (${BMIMark}) is higher than John's BMI (${BMIJohn})
+!`); 
 } else {
-    const yearsLeft = 18 - age;
-    console.log(`See you ${yearsLeft} years later!`);
+    console.log(`John's BMI (${BMIJohn}) is higher than Mark's BMI (${BMIMark})
+!`);
 }
-
-const birthYear = 1994;
-let century;
-
-if (birthYear <= 2000) {
-    century = 20;
-} else {
-    century = 21;
-}
-
-//Since there is block scope, if you need to use let century out side of {}, 
-//you have to decrare before {}
-
-console.log(century);
