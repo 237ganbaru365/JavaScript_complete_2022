@@ -49,3 +49,17 @@
 
 // var job = 'programmer';
 // job = 'teacher';
+
+/*
+#4 basic operators Practice
+*/
+
+// const now = 2021;
+// const ageFumina = now - 1994;
+// const ageAyaka = now - 1995;
+// console.log(ageFumina, ageAyaka);
+// console.log(ageFumina * 2, ageAyaka / 10, 2 ** 3);
+
+// const firstName = 'Yoshimura';
+// const lastName = 'Fumina';
+// console.log(firstName + ' ' + lastName);
