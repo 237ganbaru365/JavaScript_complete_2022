@@ -184,3 +184,56 @@ Coding challenge #2
 // }
 
 // compareBMI();
+
+/*
+Coding challenge #4
+*/
+
+const bills = [
+    22,
+    295,
+    176,
+    440,
+    37,
+    105,
+    10,
+    1100,
+    86,
+    52
+];
+
+const tips = [];
+const totals = [];
+
+const calcTip = function(bills) {
+    for (let i = 0; i < bills.length; i++) {
+        let bill = bills[i]
+
+        if (bill >= 50 && bill <= 300) {
+            let tip = bill*0.15;
+            let total = bill + tip;
+            tips.push(tip);
+            totals.push(total);
+        } else {
+            let tip = bill*0.20;
+            let total = bill + tip;
+            tips.push(tip);
+            totals.push(total);
+        }
+    }
+
+    return console.log(tips, totals);
+}
+
+calcTip(bills);
+
+const calcAverage = function(arr) {
+    let sum = 0;
+    for (let i = 0; i < arr.length; i++) {
+        sum += arr[i];
+    }
+
+    return console.log(sum / arr.length);
+}
+
+calcAverage(totals);
