@@ -86,26 +86,101 @@ Coding challenge #1
 Coding challenge #2
 */
 
-let tip;
-let bill;
-const bills = [125, 555, 44];
-const tips = [];
-const total = [];
+// let tip;
+// let bill;
+// const bills = [125, 555, 44];
+// const tips = [];
+// const total = [];
 
-const calcTip = function(bills) {
-    for (let i = 0; i < bills.length; i++) {
-        bill = bills[i];
-        if (50 < bill && bill < 300) {
-            tip = bill * 0.15;
-            tips.push(tip);
-            total.push(bill + tip);
-        } else {
-            tip = bill * 0.20;
-            tips.push(tip)
-            total.push(bill + tip);
-        }
-    }
-    return console.log(tips, total);
-}
+// const calcTip = function(bills) {
+//     for (let i = 0; i < bills.length; i++) {
+//         bill = bills[i];
+//         if (50 < bill && bill < 300) {
+//             tip = bill * 0.15;
+//             tips.push(tip);
+//             total.push(bill + tip);
+//         } else {
+//             tip = bill * 0.20;
+//             tips.push(tip)
+//             total.push(bill + tip);
+//         }
+//     }
+//     return console.log(tips, total);
+// }
 
-calcTip(bills);
+// calcTip(bills);
+
+// const Jonas = {
+//     age: 46,
+//     firstName: "Jonas",
+//     lastName: "Schmedtmann",
+//     birthYear: 1991,
+//     job: "teacher",
+//     friends : [
+//         "Michael",
+//         "Peter",
+//         "Steven"
+//     ],
+//     hasDriversLicense: true,
+
+//     calcAge: function() {
+//         this.age = 2037 - this.birthYear;
+//         return this.age;
+//     }
+// }
+
+// // console.log(`${Jonas['firstName']} has ${Jonas['friends'].length} friends, and his best friend is called ${Jonas['friends'][0]}`);
+
+// const message = function() {
+//     if (Jonas.hasDriversLicense) {
+//         console.log(`${Jonas.firstName} is a ${Jonas.age}-year old ${Jonas.job}, and he has a driver's license.`);
+//     } else {
+//         console.log(`${Jonas.firstName} is a ${Jonas.age}-year old ${Jonas.job}, and he doen't have a driver's license.`);
+//     }
+// }
+
+// message();
+
+
+/*
+Coding challenge #2
+*/
+
+// const Mark = {
+//     firstName: "Mark",
+//     lastName: "Miller",
+//     mass: 78,
+//     height: 1.69,
+
+//     calcBMI: function() {
+//         this.bmi = this.mass / this.height ** 2;
+//         return this.bmi;
+//     }
+// };
+
+// const John = {
+//     firstName: "John",
+//     lastName: "Smith",
+//     mass: 92,
+//     height: 1.95,
+
+//     calcBMI: function() {
+//         this.bmi = this.mass / this.height ** 2;
+//         return this.bmi;
+//     }
+// };
+
+// //ここで一旦呼び出ししないと、計算されない！
+// Mark.calcBMI();
+// John.calcBMI();
+
+// const compareBMI = function() {
+//     if (John.calcBMI > Mark.calcBMI) {
+//         console.log(`${John.firstName}'s BMI(${John.bmi}) is higher than ${Mark.firstName}'s (${Mark.bmi})'`)
+//     } else {
+//         console.log(`${Mark.firstName}'s BMI(${Mark.bmi}) is higher than ${John.firstName}'s (${John.bmi})`)
+//     }
+//     return;
+// }
+
+// compareBMI();
