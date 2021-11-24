@@ -56,29 +56,56 @@
 Coding challenge #1
 */
 
-const calcAverage = (a, b, c) => {
-    return (a + b + c) / 3;
-}
+// const calcAverage = (a, b, c) => {
+//     return (a + b + c) / 3;
+// }
 
 //DATA1
-const avgDolhins = calcAverage(44, 23, 71);
-const avgKoalas = calcAverage(65, 54, 49);
+// const avgDolhins = calcAverage(44, 23, 71);
+// const avgKoalas = calcAverage(65, 54, 49);
 
-//DATA2
-// const avgDolhins = calcAverage(85, 54, 41);
-// const avgKoalas = calcAverage(23, 34, 27);
+// //DATA2
+// // const avgDolhins = calcAverage(85, 54, 41);
+// // const avgKoalas = calcAverage(23, 34, 27);
 
-const checkWhinner = (avgDolhins, avgKoalas) => {
+// const checkWhinner = (avgDolhins, avgKoalas) => {
 
-    if (avgDolhins >= avgKoalas * 2) {
-        return console.log(`Dolhins win (${avgDolhins} vs ${avgKoalas})`);
-    } else if (avgKoalas >= avgDolhins * 2) {
-        return console.log(`Koalas win (${avgKoalas} vs ${avgDolhins})`);
-    } else {
-        return console.log('No team win');
+//     if (avgDolhins >= avgKoalas * 2) {
+//         return console.log(`Dolhins win (${avgDolhins} vs ${avgKoalas})`);
+//     } else if (avgKoalas >= avgDolhins * 2) {
+//         return console.log(`Koalas win (${avgKoalas} vs ${avgDolhins})`);
+//     } else {
+//         return console.log('No team win');
+//     }
+
+// }
+
+// checkWhinner(avgDolhins, avgKoalas);
+
+/*
+Coding challenge #2
+*/
+
+let tip;
+let bill;
+const bills = [125, 555, 44];
+const tips = [];
+const total = [];
+
+const calcTip = function(bills) {
+    for (let i = 0; i < bills.length; i++) {
+        bill = bills[i];
+        if (50 < bill && bill < 300) {
+            tip = bill * 0.15;
+            tips.push(tip);
+            total.push(bill + tip);
+        } else {
+            tip = bill * 0.20;
+            tips.push(tip)
+            total.push(bill + tip);
+        }
     }
-
+    return console.log(tips, total);
 }
 
-checkWhinner(avgDolhins, avgKoalas);
-
+calcTip(bills);
